@@ -1,0 +1,237 @@
+#titulo{
+    color: rgb(236, 203, 11);
+    font-family: Holtwood One SC;
+}
+
+#slogan{
+    color: rgb(255, 255, 255);
+}
+
+#l-in{
+    width: 200px;
+    height: auto;
+}
+
+#header-1{
+    display: flex;
+    font-size: large;
+    align-items: center;
+}
+
+#naveg{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    gap: 20px;
+}
+
+#naveg a{
+    color: #D4AF37;
+    font-family: Holtwood One SC;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: large;
+}
+
+#pedir-ya{
+    color: black !important;
+    font-weight: 900;
+    background-color: #D4AF37;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+#preg{
+    color: white;
+    padding: 20px;
+}
+
+#somos{
+    color: white;
+    padding: 20px;
+    max-width: 400px;
+    font-size: 20px;
+}
+
+#explorar{
+    background-color: #D4AF37;
+    color: white;
+    border-radius: 30px;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Holtwood One SC;
+}
+
+#int{
+    display: flex;
+    justify-content: space-between;
+}
+
+#foto-in{
+    border-radius: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#destacados{
+    margin-top: 200px;
+    width: 100%;
+}
+
+#destacados h2{
+    color: white;
+    text-align: center;
+    font-family: Holtwood One SC;
+}
+
+#tarjetas{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+
+#beneficios-text{
+    color:#D4AF37;
+    display:flex;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right: 50px;
+
+}
+
+#beneficios-img{
+    display:flex;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right: 50px;
+
+#benefe3{
+    margin-right: 100px;
+}
+
+#benefe1{
+    margin-left:20px;
+}
+
+}
+#benef-h{
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    font-family: Holtwood One SC;
+}
+
+#footpag h2{
+    text-align: center;
+    margin-top: 150px;  
+    font-family: Holtwood One SC;
+    color:white;
+
+}
+
+#footpag h3{
+    text-align: center;
+    font-family: Holtwood One SC;
+    color:#D4AF37;
+
+}
+
+#footpag2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footpag2 button{
+    margin-top: 50px;
+    color:#000000;
+    border-radius: 40px;
+    background-color: #D4AF37;
+    font-family: Holtwood One SC;
+    font-size: 20px;
+}
+
+#info-fot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    color:white;
+    font-size: 12px;
+}
+.tarjeta{
+    background-color: rgb(56, 55, 55);
+    border-radius: 30px;
+    width: 360px;
+    min-height: 360px;
+    box-sizing: border-box;
+}
+
+.info-local{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.log-tarj{
+    height: 60px;
+    width: 100px;
+    background-color: #a39f9f;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.log-tarj img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.estrellas{
+    margin: 0;
+    font-size: 15px;
+}
+
+.tarj-fot{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 20px 0 20px;
+}
+
+.foto-hamb{
+    object-fit: cover;
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.tarj-text{
+    color: white;
+    padding: 15px 20px 20px 20px;
+    font-size: 14px;
+    font-family: Holtwood One SC;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 50px;
+    border-bottom: 10px solid #797878;
+}
