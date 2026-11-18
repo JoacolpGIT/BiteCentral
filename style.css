@@ -221,6 +221,47 @@
     font-family: Holtwood One SC;
 }
 
+.tarjeta:hover{
+    animation:ani-tar 2s linear forwards;
+}
+
+#naveg:hover{
+    animation: ani-naveg 350ms linear forwards;
+}
+
+#beneficios-img:hover{
+    animation: ani-benef 2s ease-in 0s infinite forwards;
+}
+
+@keyframes ani-tar{
+    0%{
+        transform: scale(1);
+        margin:20px;
+    }
+
+    25%{
+        transform: scale(1.2);
+        margin: 50px;
+    }
+    100%{
+        transform: scale(1.4);
+        margin: 70px;
+    }
+
+}
+
+@keyframes ani-naveg{
+    0%{
+        transform: scale(1);
+        margin:20px;
+    }
+
+    100%{
+        transform: scale(1.2);
+        margin: 50px;
+    }
+
+}
 body{
     background-color: black;
     margin: 0;
@@ -234,4 +275,14 @@ header{
     width: 100%;
     padding: 15px 50px;
     border-bottom: 10px solid #797878;
+}
+
+@keyframes ani-benef{
+    0%{
+        border-color:#665620;
+    
+    }
+    100%{
+        border-color:#e6ba2b;
+    }
 }
