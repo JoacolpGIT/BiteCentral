@@ -8,8 +8,17 @@
 }
 
 #l-in{
-    width: 200px;
-    height: auto;
+	width: 40%;
+	height: auto;
+	object-fit: contain;
+	transition: transform 1s;
+	animation: wobble 2s 1;
+}
+
+@media (min-width:450px){
+    l-in{
+        width:50%;
+    }
 }
 
 #header-1{
@@ -110,7 +119,7 @@
     justify-content: space-between;
     margin-left:50px;
     margin-right: 50px;
-
+}
 #benefe3{
     margin-right: 100px;
 }
@@ -119,7 +128,7 @@
     margin-left:20px;
 }
 
-}
+
 #benef-h{
     margin-top: 150px;
     color: white;
